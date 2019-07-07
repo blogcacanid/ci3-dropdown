@@ -14,7 +14,4 @@ class M_Propinsi extends CI_Model {
         return $this->db->get('provinsi')->result(); // Tampilkan semua data yang ada di tabel provinsi
     }
 
-    public function view(){
-        return $this->db->get('provinsi')->result(); // Tampilkan semua data yang ada di tabel provinsi
-    }
 }
